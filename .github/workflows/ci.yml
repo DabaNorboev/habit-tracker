@@ -17,8 +17,7 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          channel: stable          # или '3.24.x' если хочешь фиксированную версию
-          # flutter-version: 3.24.0  # раскомментируй, если нужна точная версия
+          channel: stable
 
       - name: Install dependencies
         run: flutter pub get
@@ -30,4 +29,4 @@ jobs:
         run: flutter analyze
 
       - name: Run tests
-        run: flutter test --machine > tests.json  # --machine для читаемого отчёта
+        run: flutter test --machine > tests.json
