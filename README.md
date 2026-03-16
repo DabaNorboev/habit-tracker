@@ -1,4 +1,4 @@
-# Habit Tracker
+# Habit
 
 [![CI](https://github.com/DabaNorboev/habit-tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/DabaNorboev/habit-tracker/actions)
 
