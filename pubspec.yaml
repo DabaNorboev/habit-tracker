@@ -15,14 +15,19 @@ dependencies:
   hive: ^2.2.3
   hive_flutter: ^1.1.0
   flutter_local_notifications: ^17.2.3
+  timezone: ^0.9.4
+  crypto: ^3.0.3
   path_provider: ^2.1.4
   connectivity_plus: ^6.0.5
+  uuid: ^4.2.1
+  confetti: ^0.7.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   hive_generator: ^2.0.1
   build_runner: ^2.4.13
+  flutter_lints: ^5.0.0
 
 flutter:
   uses-material-design: true
